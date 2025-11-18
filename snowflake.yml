@@ -1,1 +1,7 @@
-
+definition_version: 1
+streamlit:
+  name: "Template App"
+  stage: "streamlit_stage"
+  query_warehouse: "compute_wh"
+  main_file: "streamlit_app.py"
+  env_file: "environment.yml"
